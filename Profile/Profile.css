@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+.localNavigation{
+    padding-left: 40%;
+    border-bottom: solid 3px #000;
+}
+
+img{
+    float: left;
+}
+
+.navi ul{
+    list-style: none;
+}
+
+.navi li{
+    list-style: none;
+}
+
+.navi a{
+    margin-left:15px;
+    text-decoration:none;
+    font-size: 2em;
+    font-family: arial black ;
+    color: #000;
+}
+
+.Profile{
+    padding-left: 20%;
+}
+
+.name p{
+    color: #000;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.birthday p{
+    color: #000;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.SNS a{
+    text-decoration: none;
+}
+
+.SNS a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.SNS p{
+    color: #000;
+    font-size: 2em;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Contact.css">
+        <title>Contact</title>
+        <link rel="icon" href="../img/My logo ver-5.00.png" type="image/png">
+    </head>
+    <body>
+        <div class="localNavigation">
+            <a href="../index.html"><img border="0" src="../img/My logo ver-5.00.png" width="180" height="180" alt="MyLogo"></a>
+            <ul class='navi'>
+                <li><a href="../index.HTML">HOME</a></li>
+                <li><a href="../Profile/Prfile.html">Profile</a></li>
+                <li><a href="../Works/Works.html">Works</a></li>
+                <li><a href="../contact/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="columns">
+              <div class="column is-half">
+                <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+                  <!-- Replace with your StaticForms accessKey -->
+                  <input type="hidden" name="accessKey" value="f2689e11-82b4-4bb6-9b4e-de7411dab3ff">
+                  <input type="hidden" name="subject" value="webフォーム">
+                  <!-- Replace with the url you want to redirect to -->
+                  <input type="hidden" name="redirectTo" value="Users/hayate/Documents/develop/2020/web/Profile/index.HTML">
+                  <div class="field">
+                    <label class="label">お名前</label>
+                    <div class="control">
+                      <input class="input" type="text" name="name" placeholder="Enter Your Name" required>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label class="label">メールアドレス</label>
+                    <div class="control">
+                      <input class="input" type="email" name="email" placeholder="Enter Your Email" required>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label class="label">問い合わせ内容</label>
+                    <div class="control">
+                      <textarea class="textarea" name="message" placeholder="Enter Your Message" required></textarea>
+                    </div>
+                  </div>
+                  <!-- <button class="button is-primary" type="Submit">送信</button> -->
+                  <div class="btn-area">
+                    <input type="submit" type="Submit"><input type="reset" value="リセット">
+                </div>
+                </form>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>

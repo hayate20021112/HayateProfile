@@ -1,0 +1,39 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100vh;
+    width:auto;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.localNavigation{
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+img{
+    float: left;
+
+}
+
+.navi ul{
+    list-style: none;
+}
+
+.navi li{
+    list-style: none;
+}
+
+.navi a{
+    margin-left:15px;
+    text-decoration:none;
+    font-size: 2em;
+    font-family: arial black ;
+    color: #000;
+}
