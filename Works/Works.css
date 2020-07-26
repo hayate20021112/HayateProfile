@@ -36,3 +36,17 @@ img{
     margin-bottom: 10px;
     margin-top: 0px;
 }
+
+.link a{
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.link p{
+    color: #000;
+    font-size: 2em;
+}
